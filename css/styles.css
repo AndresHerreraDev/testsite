@@ -17,18 +17,45 @@ margin:0;padding:0;height:100vh !important;
 
 }
 
+h1{
+ font-family: 'Sacramento', cursive;
+ font-style: italic;
+ font-weight: bolder;
+ font-size: 15vw;
+ margin: 0;
+}
+
+.header{
+
+  height: auto;
+  width: auto;
+margin: auto;
+padding: 3% 5% 3% 5%;
+word-spacing: 3px;
+z-index: 999999;
+border-style: solid;
+}
+
+.header p{
+  font-family: 'Bebas W05 Regular',arial;
+  font-size: 4vw;
+
+  margin: 0;
+
+
+}
 
 
 
 
 
 
-@media (orientation: landscape) {
+@media screen (orientation: landscape) {
   h1{
    font-family: 'Sacramento', cursive;
    font-style: italic;
    font-weight: bolder;
-   font-size: 10vw;
+   font-size: 8vw;
    margin: 0;
  }
   .header{
@@ -44,7 +71,7 @@ margin:0;padding:0;height:100vh !important;
 
   .header p{
     font-family: 'Bebas W05 Regular',arial;
-    font-size: 2vw;
+    font-size: 1vw;
 
     margin: 0;
 
@@ -52,35 +79,7 @@ margin:0;padding:0;height:100vh !important;
   }
 }
 
-@media (orientation: portrait) {
-  h1{
-   font-family: 'Sacramento', cursive;
-   font-style: italic;
-   font-weight: bolder;
-   font-size: 15vw;
-   margin: 0;
- }
 
-  .header{
-
-    height: auto;
-    width: auto;
-  margin: auto;
-  padding: 3% 5% 3% 5%;
-  word-spacing: 3px;
-  z-index: 999999;
-  border-style: solid;
-  }
-
-  .header p{
-    font-family: 'Bebas W05 Regular',arial;
-    font-size: 4vw;
-
-    margin: 0;
-
-
-  }
-}
 
 
 .top-container{
