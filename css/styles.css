@@ -25,13 +25,13 @@ body{
   font-family: 'Sacramento', cursive;
   font-style: italic;
   font-weight: bolder;
-  font-size: 10vw;
+  font-size: 15vw;
   margin: 0;
 }
 
 .header p{
   font-family: 'Bebas W05 Regular',arial;
-  font-size: 2vw;
+  font-size: 4vw;
 
   margin: 0;
 
@@ -104,7 +104,8 @@ bottom: 0;
 
 .bottom-cloud{
 
-  max-width: 100%;
+  width: 40%;
+  max-width: 40vh ;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -115,7 +116,8 @@ bottom: 0;
 }
 
 .top-cloud{
-  max-width: 100%;
+  width: 40%;
+  max-width: 40vh ;
   height: auto;
   margin-left: auto;
   margin-right: auto;
