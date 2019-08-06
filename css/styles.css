@@ -5,19 +5,11 @@
 }
 
 html{
-  margin:0;
-  padding:0;
-  height:100%;
-  min-height:100%;
-  width: 100%
+margin:0;padding:0;height:100%;
  }
 
 body{
-  margin:0;
-  padding:0;
-  height:100%;
-  min-height:100%;
-  width: 100%;
+margin:0;padding:0;height:100%;
 
   font-family: 'Merriweather',arial, sans-serif;
   text-align: center;
@@ -83,14 +75,14 @@ border-style: solid;
 .middle-container{
     background-color: #c06c84;
     display:inline-block;
-    width:100%;
+    margin:0;padding:0;height:100%;
     overflow-x: hidden;
 }
 
 .bottom-container{
     background-color: #6c5b7b;
     display:block;
-    width:100%;
+    margin:0;padding:0;height:100%;
     overflow-x: hidden;
 }
 
