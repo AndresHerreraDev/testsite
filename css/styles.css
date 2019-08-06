@@ -10,7 +10,6 @@ body{
   margin:0; padding:0; height:100%; width:100%;
   font-family: 'Merriweather',arial, sans-serif;
   text-align: center;
-  overflow-x: hidden;
 
 
 }
@@ -59,6 +58,13 @@ border-style: solid;
 
 }
 
+.container{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+  overflow-x: hidden;
+}
 
 
 .middle-container{
