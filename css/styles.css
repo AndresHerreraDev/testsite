@@ -44,6 +44,10 @@ border-image:
     #ffc8c8
   ) 30 10% ;
 
+  border-image-width: 1%;
+  position: absolute;
+  top: 30%
+
 }
 
 .header:hover{
@@ -51,9 +55,10 @@ border-image:
     linear-gradient(
       to bottom,
       rgba(255, 0, 0, 0),
-      #ffc8c8,
+      black,
       rgba(255, 0, 0, 0)
     ) 30 10% ;
+    border-image-width: 1%;
 }
 
 .header:hover p{
