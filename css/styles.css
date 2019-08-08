@@ -33,29 +33,27 @@ transition-duration: 3s;
   height: auto;
   width: auto;
 margin: auto;
-padding: 2% 3% 2% 3%;
-word-spacing: 3px;
+padding: 10% 3% 10% 3%;
+word-spacing: 2px;
 z-index: 999999;
 
-  border-image-width: 1%;
+}
+
+.header:hover{
+
+    letter-spacing: 0.8vw;
+word-spacing: 0.5vw;
 
 }
 
-.top-container:hover{
-    border-image-width: 1%;
-    letter-spacing: 3px;
-    word-spacing: 5px;
-
-
-
-}
-
-.top-container:hover p{
+.header:hover p{
 color: black;
+font-weight: bolder;
 }
 
-.top-container:hover h1{
+.header:hover h1{
 color: black;
+font-weight: bolder;
 }
 
 
