@@ -5,11 +5,11 @@
 }
 
 html{
-margin:0;padding:0;height:100vh !important;
+margin:0;padding:0;height:100vh;
  }
 
 body{
-margin:0;padding:0;height:100vh !important;
+margin:0;padding:0;height:100vh ;
 
   font-family: 'Merriweather',arial, sans-serif;
   text-align: center;
@@ -34,7 +34,7 @@ transition-duration: 3s;
   width: auto;
 margin: auto;
 padding: 3% 3% 3% 3%;
-word-spacing: 3.3px;
+word-spacing: 3px;
 z-index: 999999;
 
 
@@ -42,20 +42,20 @@ z-index: 999999;
 
 .header:hover{
 
-    letter-spacing: 0.8vw;
-word-spacing: 0.8vw;
+
+word-spacing: 1vw;
 
 }
 
 .header:hover p{
 color: white;
 font-weight: bolder;
+letter-spacing: 0.2vw;
 }
 
 .header:hover h1{
 color: white;
 font-weight: bolder;
-font-size:13.5vw;
 }
 
 
@@ -72,7 +72,7 @@ font-size:13.5vw;
 
 .top-container{
   position: relative;
-    background-color: #defcf9;
+    background-color: #2E112D;
     display:flex;
     align-items:center;
     flex-direction:column;
@@ -89,24 +89,37 @@ font-size:13.5vw;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+border-bottom: 3px solid #caabd8;
 }
 
 
 .middle-container{
-    background-color: #2E112D;
+    background-color: #bb8fa9;
     display:inline-block;
-    margin:0;padding:0;height: auto;
+    margin:0;
+    padding:0;
+    height: auto;
+    width:100%;
     overflow-x: hidden;
 }
+
+
 
 .bottom-container{
-    background-color: #6c5b7b;
+    background-color: #caabd8;
     display:block;
-    margin:0;padding:0;height:100%;
+    margin:0;
+    padding:0;
+    height:auto;
     overflow-x: hidden;
+    width:100%;
 }
 
-.background {
+.myphoto{
+  margin-top: 30px;
+}
+
+.background-img{
   height: 160%;
   width: auto;
   margin-left: auto;
@@ -119,10 +132,30 @@ bottom: 0;
 
 }
 
+.skills{
+  background-color: #caabd8;
+}
+
 
 
 .code-img{
-  width: 40%;
-  max-width: 40vh ;
+  width: 20%;
   height: auto;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.robot-img{
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-right: -30px;
+}
+
+.skill-row{
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
